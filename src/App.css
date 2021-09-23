@@ -137,3 +137,22 @@ select {
   transform: scale(1.5);
 }
 
+@media screen and (max-width:400px) {
+  .todo-input{
+    width: 270px;
+    
+  }
+  .filter-todo{
+    width: 170px;
+   
+  }
+  form{
+    flex-direction: column;
+  }
+  .todo-list{
+    width: 270px;
+  }
+  .h111{
+    font-size: 3rem;
+  }
+}

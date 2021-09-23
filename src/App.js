@@ -2,7 +2,7 @@ import React, {useState,useEffect} from 'react';
 import './App.css';
 import Form from './components/Form';
 import Todolist from './components/Todolist';
-import Particlebackground from './Particlebackground';
+
 function App() {
   
   const [inputText,setInputText]=useState("");
@@ -47,9 +47,9 @@ function App() {
   }
   return (
     <div className="App">
-    <Particlebackground/>
+    
      <header>
-    <h1>My To-do List</h1>
+    <h1 className="h111">My To-do List</h1>
     </header>
     <Form  status={status}
            setStatus={setStatus}
